@@ -1,0 +1,157 @@
+/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+    /* Light gray background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #4A90E2;
+    /* Blue header */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Main message styling */
+main {
+    background-color: white;
+    /* White background for main content */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* Limit width of the main content */
+    margin-top: 20px;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4A90E2;
+    /* Matching color for subheading */
+}
+
+main ol {
+    text-align: left;
+    /* Align list to the left */
+    margin: 20px 0;
+    /* Add margin for spacing */
+}
+
+main li {
+    margin: 15px 0;
+    /* More spacing between list items */
+    font-size: 1.1em;
+}
+
+main ul {
+    margin-left: 20px;
+    /* Indent the sub-list */
+}
+
+main li::marker {
+    color: #4A90E2;
+    /* Change color of list item markers */
+    font-weight: bold;
+    /* Make markers bold */
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #4A90E2;
+    /* Match header color */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* Center align the text */
+}
+
+footer p {
+    margin: 0;
+    /* Remove default margin */
+}
+
+footer a {
+    color: #ffe600;
+    /* Bright color for links */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover for links */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+        /* Adjust header size for smaller screens */
+    }
+
+    main {
+        padding: 20px;
+        /* Reduce padding for smaller screens */
+    }
+
+    main h2 {
+        font-size: 1.8em;
+        /* Adjust subheading size */
+    }
+
+    main li {
+        font-size: 1em;
+        /* Adjust list item size */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+        /* Further reduce header size */
+    }
+
+    main h2 {
+        font-size: 1.5em;
+        /* Further adjust subheading size */
+    }
+
+    main li {
+        font-size: 0.9em;
+        /* Further adjust list item size */
+    }
+
+    footer {
+        font-size: 0.8em;
+        /* Adjust footer size */
+    }
+}

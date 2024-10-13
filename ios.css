@@ -1,0 +1,143 @@
+/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9ff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.back-btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #01d0db;
+    background-color: rgb(50, 22, 161);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #01d0db;
+    color: rgb(50, 22, 161);
+}
+
+/* Header styling */
+header {
+    background-color: #1a73e8;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Main message styling */
+main {
+    padding: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #4A90E2;
+    /* Match header color */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* Center align the text */
+}
+
+footer p {
+    margin: 0;
+    /* Remove default margin */
+}
+
+footer a {
+    color: #ffe600;
+    /* Bright color for links */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover for links */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+        /* Adjust header size for smaller screens */
+    }
+
+    .back-btn {
+        font-size: 1em;
+        /* Adjust button size */
+        padding: 10px 20px;
+        /* Adjust button padding */
+    }
+
+    main p {
+        font-size: 1em;
+        /* Adjust paragraph size */
+    }
+
+    footer {
+        font-size: 0.8em;
+        /* Smaller footer font */
+        padding: 10px;
+        /* Adjust footer padding */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+        /* Further reduce header size */
+    }
+
+    .back-btn {
+        font-size: 0.9em;
+        /* Further adjust button size */
+        padding: 8px 15px;
+        /* Further adjust button padding */
+    }
+
+    main p {
+        font-size: 0.9em;
+        /* Further adjust paragraph size */
+    }
+
+    footer {
+        font-size: 0.7em;
+        /* Further adjust footer size */
+        padding: 8px;
+        /* Further adjust footer padding */
+    }
+}
