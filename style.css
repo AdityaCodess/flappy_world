@@ -1,0 +1,130 @@
+/* General reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    background-color: #1a73e8;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.play-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #1a73e8;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+/* Section styling */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about,
+.download {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1a73e8;
+}
+
+/* Links and download section */
+.download a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.download a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #4A90E2;
+    /* Match header color */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* Center align the text */
+}
+
+footer p {
+    margin: 0;
+    /* Remove default margin */
+}
+
+footer a {
+    color: #ffe600;
+    /* Bright color for links */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover for links */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    play-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    footer {
+            font-size: 0.8em;
+            /* Adjust footer size */
+        }
+}
