@@ -1,0 +1,14 @@
+/* style.css */
+nav button {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button.active {
+    background-color: #ffcc00;
+    color: #333;
+}
