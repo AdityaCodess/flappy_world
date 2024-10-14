@@ -102,26 +102,20 @@ footer {
     font-size: 0.9em;
     color: #fff;
     background-color: #4A90E2;
-    /* Match header color */
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
-    /* Center align the text */
 }
 
 footer p {
     margin: 0;
-    /* Remove default margin */
 }
 
 footer a {
     color: #ffe600;
-    /* Bright color for links */
     text-decoration: none;
-    /* Remove underline */
     font-weight: bold;
-    /* Bold links */
 }
 
 footer a:hover {
@@ -135,30 +129,23 @@ footer a:hover {
     overflow-x: auto;
     padding: 20px;
     gap: 10px;
-    /* Space between images */
 }
 
 .image-container {
     flex: none;
-    /* Prevents images from stretching */
     width: 200px;
-    /* Fixed width for images */
     transition: transform 0.2s, box-shadow 0.2s;
-    /* Transition for hover effect */
+
 }
 
 .image-box {
     width: 100%;
-    /* Makes the image fit the container */
     border-radius: 8px;
-    /* Rounded corners */
 }
 
 .image-container:hover {
     transform: scale(1.05);
-    /* Slightly enlarges the image on hover */
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-    /* Shadow effect */
 }
 
 /* Responsive styling */
@@ -183,6 +170,5 @@ footer a:hover {
 
     footer {
             font-size: 0.8em;
-            /* Adjust footer size */
         }
 }

@@ -45,7 +45,6 @@ header h1 {
 }
 .qr-code {
     width: 200px;
-    /* Adjust size as needed */
     margin: 20px 0;
 }
 
@@ -84,20 +83,15 @@ footer {
 
     .qr-code {
         width: 150px;
-        /* Smaller size for mobile */
     }
 
         .back-btn {
             font-size: 0.9em;
-            /* Further adjust button size */
             padding: 8px 15px;
-            /* Further adjust button padding */
         }
 
         .submit-button{
                     font-size: 0.9em;
-                    /* Further adjust button size */
                     padding: 8px 15px;
-                    /* Further adjust button padding */
                 }
 }

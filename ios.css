@@ -1,4 +1,3 @@
-/* Reset and general styling */
 * {
     margin: 0;
     padding: 0;
@@ -64,38 +63,30 @@ footer {
     font-size: 0.9em;
     color: #fff;
     background-color: #4A90E2;
-    /* Match header color */
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
-    /* Center align the text */
 }
 
 footer p {
     margin: 0;
-    /* Remove default margin */
 }
 
 footer a {
     color: #ffe600;
-    /* Bright color for links */
     text-decoration: none;
-    /* Remove underline */
     font-weight: bold;
-    /* Bold links */
 }
 
 footer a:hover {
     text-decoration: underline;
-    /* Underline on hover for links */
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2em;
-        /* Adjust header size for smaller screens */
     }
 
     .back-btn {
@@ -107,39 +98,30 @@ footer a:hover {
 
     main p {
         font-size: 1em;
-        /* Adjust paragraph size */
     }
 
     footer {
         font-size: 0.8em;
-        /* Smaller footer font */
         padding: 10px;
-        /* Adjust footer padding */
     }
 }
 
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.5em;
-        /* Further reduce header size */
     }
 
     .back-btn {
         font-size: 0.9em;
-        /* Further adjust button size */
         padding: 8px 15px;
-        /* Further adjust button padding */
     }
 
     main p {
         font-size: 0.9em;
-        /* Further adjust paragraph size */
     }
 
     footer {
         font-size: 0.7em;
-        /* Further adjust footer size */
         padding: 8px;
-        /* Further adjust footer padding */
     }
 }
