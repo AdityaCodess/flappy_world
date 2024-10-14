@@ -108,6 +108,38 @@ footer a:hover {
     /* Underline on hover for links */
 }
 
+/* Image gallery styles */
+.image-area {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 10px;
+    /* Space between images */
+}
+
+.image-container {
+    flex: none;
+    /* Prevents images from stretching */
+    width: 200px;
+    /* Fixed width for images */
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Transition for hover effect */
+}
+
+.image-box {
+    width: 100%;
+    /* Makes the image fit the container */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+    /* Slightly enlarges the image on hover */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    /* Shadow effect */
+}
+
 /* Responsive styling */
 @media (max-width: 768px) {
     header h1 {
