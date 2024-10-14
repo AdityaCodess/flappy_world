@@ -18,19 +18,21 @@ body {
 }
 
 .back-btn {
+    margin-left: 50px;
     padding: 15px 30px;
+    align-self: right;
     font-size: 1.2em;
-    color: #01d0db;
-    background-color: rgb(50, 22, 161);
+    color: #1a73e8;
+    background-color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
 }
 
 .back-btn:hover {
-    background-color: #01d0db;
-    color: rgb(50, 22, 161);
+    background-color: #ffcc00;
+    color: #333;
 }
 
 /* Header styling */

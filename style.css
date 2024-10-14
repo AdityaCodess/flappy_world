@@ -32,14 +32,35 @@ header h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 .play-button:hover {
     background-color: #ffcc00;
     color: #333;
+    cursor: pointer;
 }
 
+/* donate button */
+
+.donate-button {
+    margin-left: 50px;
+    padding: 15px 30px;
+    align-self: right;
+    font-size: 1.2em;
+    color: #1a73e8;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #ffcc00;
+    color: #333;
+    cursor: pointer;
+}
 /* Section styling */
 section {
     padding: 40px 20px;
@@ -150,6 +171,11 @@ footer a:hover {
         font-size: 1em;
         padding: 10px 20px;
     }
+
+    donate-button {
+            font-size: 1em;
+            padding: 10px 20px;
+        }
 
     section h2 {
         font-size: 1.8em;

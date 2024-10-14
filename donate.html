@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Flappy World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Support Flappy World</h1>
+        <p>Your contributions help us keep the game going!</p>
+    </header>
+
+    <section class="donate">
+        <h2>Make a Donation</h2>
+        <p>Please scan the QR code below to make a donation:</p>
+        <img src="qrcode.jpg" alt="QR Code for Donation" class="qr-code">
+        <link rel="stylesheet" href="donate.css">
+
+        <form id="donation-form">
+            <label for="donor-name">Your Name:</label>
+            <input type="text" id="donor-name" name="donor-name" required><br><br>
+            <button class="submit-button" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">Back</button>
+
+
+    <footer>
+        <p>&copy; 2024 Flappy World. Thank you for your support!</p>
+    </footer>
+</body>
+
+</html>
