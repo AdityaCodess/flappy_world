@@ -111,6 +111,32 @@ footer a:hover {
     /* Underline on hover for links */
 }
 
+.donate-para {
+    color: #333;
+    font-weight: bolder;
+    size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+.donate-button{
+    margin-left: 50px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #1a73e8;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     header h1 {
@@ -132,6 +158,7 @@ footer a:hover {
         font-size: 1em;
         /* Adjust list item size */
     }
+
 }
 
 @media (max-width: 480px) {
@@ -154,4 +181,5 @@ footer a:hover {
         font-size: 0.8em;
         /* Adjust footer size */
     }
+
 }
